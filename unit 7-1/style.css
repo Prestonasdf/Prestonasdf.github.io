@@ -1,0 +1,61 @@
+body{
+  background-image: url(img/7-1bg.png);
+    /*this height allows us to see the full background picture vertically*/
+  height: 2875px;
+  /*this width prevents the images from wrapping*/
+  width: 1600px;
+  background-repeat: no-repeat;
+  background-position: 200px 0;
+  
+}
+img{
+  /*these properties together allow inline elements on the same row to have independent top and bottom margins/padding*/
+  display:inline-block;
+  vertical-align: top;
+}
+
+/*
+Add your CSS to the ID selectors below
+*/
+
+#ball{
+padding: 12px 50px 75px 215px;
+}
+
+#turnip{
+padding: 5px 60px 25px 410px;
+margin-top: 113px;
+  margin-bottom: 70px;
+  margin-right: 150px;
+  margin-left: 80px;
+}
+
+#grass{
+padding: 5px 60px 25px 10px;
+margin-top: 113px;
+  margin-bottom: 70px;
+  margin-right: 10px;
+  margin-left: -175px;
+}
+
+#L{
+ margin-top: 1263px;
+  margin-bottom: -700px;
+  margin-right: 1000px;
+  margin-left: 291px;
+}
+
+#T{
+padding: 30px 60px -50px -10px;
+  margin-top: 600px;
+    margin-bottom: -2050px;
+    margin-right: 1700px;
+    margin-left: 692px;
+}
+#I{
+ padding: 30px 60px -50px -10px;
+  margin-top: 480px;
+    margin-bottom: -200px;
+    margin-right: 10px;
+    margin-left: 1190px;
+}
