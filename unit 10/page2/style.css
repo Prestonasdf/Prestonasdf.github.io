@@ -1,0 +1,7 @@
+table{
+  text-align: center;
+  width:100%;
+}
+td, th, tr{
+  border:1px solid black;
+}

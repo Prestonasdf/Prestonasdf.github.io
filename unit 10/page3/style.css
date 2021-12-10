@@ -1,0 +1,16 @@
+td {
+  text-align: center;
+}
+th, td, tr {
+  border: 1px solid black;
+  height: 100%;
+}
+img{
+  float: center;
+  width:  100px;
+  height: 100px;
+  object-fit: cover;
+}
+ol{
+  text-align: left;
+}
